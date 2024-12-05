@@ -1,0 +1,193 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /
+    }
+}
+
+body {
+    background-color: #f9f9f9;
+    background-image: url(Geometry.jpg);
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+header:nth-of-type(2) {
+margin-top: -10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+div {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #007acc;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+details p {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+details li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+button a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border-radius: 10px;
+}
+
+footer h3 {
+    margin: 10px 0;
+}
+
+#clock {
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid blueviolet;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#calendar {
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid blueviolet;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.dark-mode header,
+.dark-mode div,
+.dark-mode footer {
+    background-color: #444;
+    color: #f5f5f5;
+}
+
+.dark-mode details summary {
+    color: #f5f5f5;
+}
+
+.dark-mode details p {
+    background-color: #555;
+    color: #f5f5f5;
+}
+
+.dark-mode button {
+    background-color: #555;
+    color: #f5f5f5;
+}
+
+.dark-mode button:hover {
+    background-color: #777;
+}
+
+.dark-mode a {
+    color: #1e90ff;
+}
+
+.dark-mode a:hover {
+    color: #87cefa;
+}
+
+.dark-mode #calendar,
+.dark-mode #clock {
+    background-color: #555;
+    color: blueviolet;
+}

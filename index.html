@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet page 1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RfkyRoomV1</title>
+</head>
+<body>
+<header>
+    <h1>Welcome!</h1><br>
+    <h2>To</h2><br>
+    <h2>My Learning English Sites</h2>
+</header>
+<main>
+   
+    <div id="calendar"></div>
+<script>
+    const today = new Date();
+    document.getElementById("calendar").innerHTML = today.toDateString();
+</script>
+
+    <main id="clock"></main>
+
+    <script>
+      setInterval(() => {
+        let date = new Date();
+        let clock = document.getElementById('clock');
+        clock.innerHTML =
+        date.getHours()+":"+
+        date.getMinutes()+":"+
+        date.getSeconds()
+      }, 1000);
+    </script>
+</main>
+<div>
+    <details class="container"><summary>About This Website</summary>
+    <p>This Website Purposes Is To Fulfill The Assignment Of Digital Litearcy Courses</p>
+    <p>Course : Digital Literacy</p>
+    <p>Class : 3C</p>
+    <p>Lecturer : Mrs. Atin Kurniawati S.Pd.M.A</p>
+    </details>
+    <details class="container"><summary>About The Author</summary>
+    <img src="Rifky.png"/>
+    <p>Name: Muhammad Rifky</p>
+    <p>NIM: 236121081</p>
+    <p>Major: English Language Education</p>
+    <p>Class: 3C</p>
+    <p>Motto: Wake Up, Time To Work!</p>
+    </details>
+    <details class="container"><summary>About The Tools</summary>
+    <p>Visual Studio Code</p>
+    <p>File Explorer</p>
+    <p>Github</p>
+    </details>
+</div>
+<main>
+<div class="running-image">
+    <img src="English Flag.png" alt="running-image">
+    </div>
+</main>
+<div class="Tombolv1">
+    <button><a href="Page2.html">Basic</a></button>
+    <h2>Quiz Type</h2>
+    <button><a href="UasProject.html">Games</a></button>
+</div>
+<div class="sebelumuda">
+    <div style="display: flex; gap: 10px; background: whitesmoke; padding: 20px;">
+        <img src="Filosofi.jpg" alt="Buku 1" style="width: 100px;">
+        <img src="RDPD.jpg" alt="Buku 2" style="width: 100px;">
+        <img src="PBD.jpg" alt="Buku 3" style="width: 100px;">
+        <img src="MEIN.jpg" alt="Buku 4" style="width: 100px;">
+        <img src="STEVE.jpg" alt="Buku 5" style="width: 100px;">
+    </div>
+</div>
+    <footer class="End">
+<h2>Have Fun!</h2>
+
+</footer>
+
+<script src="scriptpage1.js"></script>
+
+</body>
+</html>

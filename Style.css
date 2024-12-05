@@ -1,0 +1,90 @@
+body {
+  background-image: url('DirtBlock.png');
+}
+
+@media (max-width: 600px) {
+  body {
+      font-size: 14px; /
+  }
+}
+
+header{
+  text-align: center;
+  color: whitesmoke;
+}
+
+div{
+  border-style: solid;
+  padding: 50px;
+  background-color: #FCF6F5;
+  border-radius: 50px;
+  border-color: #97BC62;
+}
+
+footer{
+  text-align: center;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.hakunamatata {
+  align-content: center;
+  background-color: #FA6775;
+  border: solid;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: white;
+}
+.awalan {
+  background-color: whitesmoke;
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.pickaxe {
+  display: block;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+#clock {
+  font-size: 2em;
+  text-align: center;
+  border: 2px solid red;
+  background-color: whitesmoke;
+  color: red;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+button {
+  background-color: whitesmoke;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}

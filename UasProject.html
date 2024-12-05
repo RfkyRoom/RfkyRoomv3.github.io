@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title>
+    Casual English Test About Minecraft
+</title>
+</head>
+<body>
+
+  <header>
+    <h2>Casual English Test "Minecraft Edition"</h2>
+</header>
+
+  <main id="clock"></main>
+
+<script>
+  setInterval(() => {
+    let date = new Date();
+    let clock = document.getElementById('clock');
+    clock.innerHTML =
+    date.getHours()+":"+
+    date.getMinutes()+":"+
+    date.getSeconds()
+  }, 1000);
+</script>
+
+    <header class="awalan">
+      <details>
+      <h3>Material About : Minecraft</h3>
+      <h3>Difficulty Level : Easy</h3>
+      <p>If you are Minecraft player, this question is quite simple and easy !</p>
+      </details>
+    </header>
+    <div id="quiz-container">
+        <div class="question">
+          <img src="Pickaxe.jpg" class="pickaxe"/>
+          <h4>1. What is the rarest thing in Minecraft?</h4>
+          <p><input type="radio" name="q1" value="A"> A. Wood</p>
+          <p><input type="radio" name="q1" value="B"> B. Diamond</p>
+          <p><input type="radio" name="q1" value="C"> C. Lapis Lazuli</p>
+          <p><input type="radio" name="q1" value="D"> D. Emerald</p>
+        </div>
+        <div class="question">
+          <img src="Villager.png" class="pickaxe"/>
+          <h4>2. Why Villager make you mad?</h4>
+          <p><input type="radio" name="q2" value="A"> A. Because They Blind</p>
+          <p><input type="radio" name="q2" value="B"> B. Because They Can't Talk</p>
+          <p><input type="radio" name="q2" value="C"> C. Because They Just Say Heeeh</p>
+          <p><input type="radio" name="q2" value="D"> D. All Answer Is Correct</p>
+        </div>
+        <div class="question">
+          <img src="Guardian.jpg" class="pickaxe"/>
+          <h4>3. What is the Strongest Mob in Minecraft?</h4>
+          <p><input type="radio" name="q3" value="A"> A. Villager</p>
+          <p><input type="radio" name="q3" value="B"> B. Witch</p>
+          <p><input type="radio" name="q3" value="C"> C. Warden</p>
+          <p><input type="radio" name="q3" value="D"> D. Wither Skeleton</p>
+        </div>
+        <div class="question">
+          <img src="Heart.jpg" class="pickaxe"/>
+          <h4>4. What will happen if you DIE in hardcore mode?</h4>
+          <p><input type="radio" name="q4" value="A"> A. You Will Respawn Immediately</p>
+          <p><input type="radio" name="q4" value="B"> B. You Will Get A Diamond</p>
+          <p><input type="radio" name="q4" value="C"> C. Your World will gone</p>
+          <p><input type="radio" name="q4" value="D"> D. Mojang Will call you</p>
+        </div>
+        <div class="question">
+          <img src="Roblox.png" class="pickaxe"/>
+          <h4>5. What Is the best game of all time?</h4>
+          <p><input type="radio" name="q5" value="A"> A. Terraria</p>
+          <p><input type="radio" name="q5" value="B"> B. Clash Of Clans</p>
+          <p><input type="radio" name="q5" value="C"> C. Roblox</p>
+          <p><input type="radio" name="q5" value="D"> D. Minecraft</p>
+        </div>
+        <button id="submit-btn" class="hakunamatata">Submit Here Dude !</button>
+        <div id="result"></div>
+      </div>
+<footer>
+    <h3>About The Creator</h3>
+    <p>Name : Muhammad Rifky</p>
+    <p>Major : English Language Education</p>
+    <p>University : Islamic State University Raden Mas Said Surakarta</p>
+    <h5>Credit To : Mojang</h5>
+    <button><a href="index.html">Back To Previous Page</a></button>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
